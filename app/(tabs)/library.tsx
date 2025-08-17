@@ -10,10 +10,10 @@ const styles = StyleSheet.create({
   },
 });
 
-export default function HomeScreen() {
+export default function LibraryScreen() {
   return (
     <ThemedView style={styles.container}>
-      <ThemedText>Home</ThemedText>
+      <ThemedText>Library</ThemedText>
     </ThemedView>
   );
 }
